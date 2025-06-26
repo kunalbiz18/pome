@@ -68,7 +68,7 @@ gsap.to(contentRef.current, {
     }
   }, 500);
 
-  // iOS autoplay fix
+ 
   const once = (el, event, fn) => {
     const handler = (e) => {
       el.removeEventListener(event, handler);
@@ -107,11 +107,28 @@ gsap.to(contentRef.current, {
               <li><button>Contact</button></li>
             </ul>
           </nav>
-
-          <div className="hero-content" ref={contentRef}>
+        
+  <div className="hero-content" ref={contentRef}>
             <h2 className="organic">ORGANIC</h2>
             <h1 className="headline">THE PERFECT POMEGRANATE JUICE</h1>
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <div className="sequence-container">
             <video
