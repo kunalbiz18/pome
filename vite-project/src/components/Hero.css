@@ -3,8 +3,8 @@
   font-family: 'Poppins', sans-serif;
   color: white;
  min-height: 100vh;
-  overflow-x: hidden; /* ← Only hide horizontal scroll */
-  overflow-y: visible; /* ← Allow vertical space growth */  
+  overflow-x: hidden; 
+  overflow-y: visible; 
   overflow: hidden;
   position: relative;
 }
@@ -115,7 +115,7 @@
   height: 1500px;
   width: 100%;
   flex-shrink: 0;
-  background: #8A0032; /* temp: same as hero to hide jump */
+  background: #8A0032; 
 }
 .leaf{
   position: absolute;
@@ -130,17 +130,7 @@
   bottom: -20px;
   left: -150px;
 }
-.sequence-container::after {
-  content: "";
-  position: absolute;
-  bottom: 30px;
-  right: 0px;
-  width: 350px; /* adjust width */
-  height: 50px;  /* adjust height */
-  background: #6B091D; /* matching red bg */
-  z-index: 2;
-  border-radius: 8px;
-}
+
 .juice-section {
   max-width: 1200px;
   margin: auto;

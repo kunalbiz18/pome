@@ -24,7 +24,7 @@ useEffect(() => {
     requestAnimationFrame(update);
   };
 
-  // Start requestAnimationFrame loop
+  
   requestAnimationFrame(update);
 
   scrollTrigger = ScrollTrigger.create({
@@ -54,7 +54,7 @@ gsap.to(contentRef.current, {
 });
 
 
-  // Safari blob fix (optional)
+  
   setTimeout(() => {
     const src = video.currentSrc || video.src;
     if (window.fetch) {
@@ -112,24 +112,6 @@ gsap.to(contentRef.current, {
             <h2 className="organic">ORGANIC</h2>
             <h1 className="headline">THE PERFECT POMEGRANATE JUICE</h1>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div className="sequence-container">
             <video
               ref={videoRef}
@@ -146,8 +128,7 @@ gsap.to(contentRef.current, {
         </div>
       </div>
 
-      {/* Scroll space outside pinned area */}
-     {/* Scroll space outside pinned area */}
+     
 <div style={{ minHeight: "1200px", background: "#f5f5f5", padding: "80px 60px" }}>
   <div className="juice-section">
     <div className="juice-header flex  justify-center items-center gap-[150px]">
